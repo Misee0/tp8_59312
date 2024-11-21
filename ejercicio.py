@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+#url = https://tp8-59312-sigma.streamlit.app/
+
 def generar_grafico_evolucion_ventas(datos_filtrados, nombre_producto):
     ventas_agrupadas = datos_filtrados.groupby(['Año', 'Mes'])['Unidades_vendidas'].sum().reset_index()
     fig, ax = plt.subplots(figsize=(10, 6))
