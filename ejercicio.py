@@ -34,9 +34,9 @@ def generar_grafico_evolucion_ventas(datos_filtrados, nombre_producto):
 
 def mostrar_datos_estudiante():
     with st.container():
-        st.markdown('**Legajo:** 55.555')
-        st.markdown('**Nombre:** Juan Pérez')
-        st.markdown('**Comisión:** C1')
+        st.markdown('**Legajo:** 59.312')
+        st.markdown('**Nombre:** Ignacio Matías Cancino')
+        st.markdown('**Comisión:** C7')
 
 st.sidebar.header("Cargar archivo de datos")
 archivo_csv = st.sidebar.file_uploader("Subir archivo CSV", type=["csv"])
